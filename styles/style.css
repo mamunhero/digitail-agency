@@ -126,3 +126,32 @@ span{
   display: flex;
   align-items: center;
 }
+/* blog container section */
+.blog-container{
+  width: 80%;
+  margin:auto;
+  padding: 10px;
+}
+.blog-container h1{
+  color: black;
+  text-align: center;
+  margin: 50px;
+}
+.blog-img{
+  width: 100%;
+}
+.card{
+  width: 220px;
+  height: 300px;
+  box-shadow:4px 8px 4px gray;
+  border-radius:5px;
+}
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
